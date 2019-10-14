@@ -56,7 +56,7 @@ header {
 
 .card {
     border-radius: 15px;
-    /* max-width: 270px; */
+    max-width: 270px;
 }
 
 .card span {
