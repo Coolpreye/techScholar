@@ -20,7 +20,25 @@ header {
 }
 
 .intro-text {
-    margin: 17em 0 0 1.8em;
+    margin: 17em 0 0 2.1em;
+}
+
+.intro-text h5 {
+    font-weight: bolder;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.intro-text p {
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace; 
+    margin-top: -1em;   
+}
+
+.intro-text .btn {
+    background: linear-gradient(to right, #e65100, #ffc107);
+    text-align: center;
+    border-radius: 10px;
+    margin-top: -1em;
 }
 
 .section {
