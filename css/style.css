@@ -6,7 +6,7 @@ header {
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: 800px;
+    min-height: 650px;
 }
 
 .brand-img {
@@ -17,6 +17,10 @@ header {
 .navlinks {
     margin-left: 10em;
     font-family: 'Roboto Mono', monospace;
+}
+
+.intro-text {
+    margin: 17em 0 0 1.8em;
 }
 
 .section {
