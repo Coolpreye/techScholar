@@ -26,7 +26,7 @@ header {
 }
 
 .intro-text h1 {
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .intro-text p {
@@ -43,7 +43,7 @@ header {
     margin-top: -0.5em;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 380px) {
     .team h4 {
         margin-left: 2em;
     }
