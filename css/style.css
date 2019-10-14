@@ -38,6 +38,15 @@ header {
     font-weight: bold;
 }
 
+@media (max-width: 500px) {
+    .intro-text h1 {
+        font-size: 2rem;
+    }
+    .intro-text pre {
+        font-size: 0.9rem;
+    }
+}
+
 .get-started-btn {
     position: relative;
     top: -11em;
