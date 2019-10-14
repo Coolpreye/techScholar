@@ -39,11 +39,19 @@ header {
 }
 
 .get-started-btn {
-    position: relative;
-    top: -5em;
     background: linear-gradient(to right,#fa6437, #2c2b2b);
     border-radius: 15px;
-    margin-top: 2em;
+    margin-top: -0.5em;
+}
+
+@media (max-width: 480px) {
+    .team h4 {
+        margin-left: 2em;
+    }
+    .team .row {
+        margin-left: 4em;
+    }
+  
 }
 
 .section {
