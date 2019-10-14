@@ -85,6 +85,10 @@ ul.carousel {
     text-align: center;
 }
 
+footer {
+    padding-bottom: 3em;
+}
+
 @media only screen and (min-width: 600px) {
     .intro-text {
         margin: 20em 0 0 2.6em;
