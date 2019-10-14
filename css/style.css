@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Hepta+Slab|Roboto+Mono&display=swap');
+
+
+header {
+    background: url(../images/techs.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 800px;
+}
+
+.brand-img {
+    width: 7%;
+    min-width: 60px;
+}
+
+.navlinks {
+    margin-left: 10em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.intro-text {
+    position: relative;
+    top: 16em;
+    margin-left: 3em;
+}
+
+.intro-text h1 {
+    font-weight: bolder;
+}
+
+.intro-text pre {
+    position: relative;
+    top: -1em;
+    margin-left: -10.9em;
+    font-size: 3rem;
+    line-height: 55px;
+    font-weight: bold;
+}
+
+.get-started-btn {
+    position: relative;
+    top: -11em;
+    background: linear-gradient(to right,#fa6437, #2c2b2b);
+    border-radius: 15px;
+    margin-top: 2em;
+}
+
+.section {
+    padding: 6vw 0;
+}
+
+.section h5, .contact h4 {
+    background: linear-gradient(to right,#fa6437, #2c2b2b);
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.section p, .contact p {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    line-height: 2.5em;
+    font-weight: bold;
+}
+
+.team {
+    background: url(../images/TECHSCHOLAR\ landing\ page.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.team h4 {
+    margin-left: 18em;
+    margin-top: -1em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.team .row {
+    margin-left: 30px;
+}
+
+.card {
+    border-radius: 15px;
+    max-width: 270px;
+}
+
+.card span {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.card-action a {
+    margin-left: 3em;
+} 
+
+@media (max-width: 670px) {
+    .team h4 {
+        margin-left: 5em;
+        margin-top: 0.5em;
+    }
+    
+    .team .row {
+        margin-left: 7em;
+    }
+}
+
+.contact .row {
+    margin-top: 2.9em;
+}
