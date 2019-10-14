@@ -30,8 +30,7 @@ header {
 }
 
 .intro-text p {
-    position: relative;
-    top: -1em;
+    margin-top: -1em;
     margin-left: 0.3em;
     font-size: 2rem;
     line-height: 40px;
@@ -44,7 +43,7 @@ header {
     margin-top: -0.5em;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 380px) {
     .team h4 {
         margin-left: 2em;
     }
