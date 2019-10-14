@@ -19,40 +19,6 @@ header {
     font-family: 'Roboto Mono', monospace;
 }
 
-.intro-text {
-    position: relative;
-    top: 16em;
-    margin-left: 1em;
-}
-
-.intro-text h1 {
-    font-weight: bold;
-}
-
-.intro-text p {
-    margin-top: -1em;
-    margin-left: 0.3em;
-    font-size: 2rem;
-    line-height: 40px;
-    font-weight: bold;
-}
-
-.get-started-btn {
-    background: linear-gradient(to right,#fa6437, #2c2b2b);
-    border-radius: 15px;
-    margin-top: -0.5em;
-}
-
-@media (max-width: 380px) {
-    .team h4 {
-        margin-left: 2em;
-    }
-    .team .row {
-        margin-left: 4em;
-    }
-  
-}
-
 .section {
     padding: 6vw 0;
 }
@@ -90,7 +56,7 @@ header {
 
 .card {
     border-radius: 15px;
-    max-width: 270px;
+    /* max-width: 270px; */
 }
 
 .card span {
@@ -101,17 +67,6 @@ header {
 .card-action a {
     margin-left: 3em;
 } 
-
-@media (max-width: 670px) {
-    .team h4 {
-        margin-left: 5em;
-        margin-top: 0.5em;
-    }
-    
-    .team .row {
-        margin-left: 7em;
-    }
-}
 
 .contact .row {
     margin-top: 2.9em;
