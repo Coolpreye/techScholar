@@ -89,6 +89,36 @@ footer {
     padding-bottom: 3em;
 }
 
+/* forms styles */
+.login-body {
+    background: url(../images/TECHSCHOLAR\ landing\ page.png);
+}
+
+h4, h6 {
+    margin-top: 2em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.form {
+    background: #fff;
+    border: 1px solid #fff;
+    padding: 1em;
+    margin-top: 3.5em;
+}
+
+p {
+    margin-left: 3em;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.password {
+    font-family: 'Roboto Mono', monospace;
+}
+
+button#submit {
+    border-radius: 10px;
+}
+
 @media only screen and (min-width: 600px) {
     .intro-text {
         margin: 20em 0 0 2.6em;

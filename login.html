@@ -1,104 +1,41 @@
-<!DOCTYPE HTML>
-<html lang="zxx">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Login</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8" />
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="css/materialize.min.css">
-	<link rel="stylesheet" href="css/login-form.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="css/style.css">
+	<title>Login | As Student</title>
 </head>
-
-<body>
-	<div class="main-bg">
-		<!-- title -->
-		<h1 class="">TechScholar</h1>
-		<!-- //title -->
-		<div class="sub-main-w3">
-			<div class="image-style">
-
-			</div>
-			<!-- vertical tabs -->
-			<div class="vertical-tab">
-				<div id="section1" class="section-w3ls">
-					<input type="radio" name="sections" id="option1" checked>
-					<label for="option1" class="icon-left-w3pvt"><span class="fa fa-user-circle" aria-hidden="true"></span>Login</label>
-					<article>
-						<form action="#" method="post">
-							<h3 class="legend">Login Here</h3>
-							<div class="input">
-								<span class="fa fa-envelope-o" aria-hidden="true"></span>
-								<input type="email" placeholder="Email" name="email" required />
-							</div>
-							<div class="input">
-								<span class="fa fa-key" aria-hidden="true"></span>
-								<input type="password" placeholder="Password" name="password" required />
-							</div>
-							<button type="submit" class="btn submit">Login</button>
-							<a href="#" class="bottom-text-w3ls">Forgot Password?</a>
-						</form>
-					</article>
-				</div>
-				<div id="section2" class="section-w3ls">
-					<input type="radio" name="sections" id="option2">
-					<label for="option2" class="icon-left-w3pvt"><span class="fa fa-pencil-square" aria-hidden="true"></span>Register</label>
-					<article>
-						<form action="#" method="post">
-							<h3 class="legend">Register Here</h3>
-							<div class="input">
-								<span class="fa fa-user-o" aria-hidden="true"></span>
-								<input type="text" placeholder="Username" name="name" required />
-							</div>
-							<div class="input">
-								<span class="fa fa-key" aria-hidden="true"></span>
-								<input type="password" placeholder="Password" name="password" required />
-							</div>
-							<div class="input">
-								<span class="fa fa-key" aria-hidden="true"></span>
-								<input type="password" placeholder="Confirm Password" name="password" required />
-							</div>
-							<button type="submit" class="btn submit">Register</button>
-						</form>
-					</article>
-				</div>
-				<div id="section3" class="section-w3ls">
-					<input type="radio" name="sections" id="option3">
-					<label for="option3" class="icon-left-w3pvt"><span class="fa fa-lock" aria-hidden="true"></span>Forgot Password?</label>
-					<article>
-						<form action="#" method="post">
-							<h3 class="legend last">Reset Password</h3>
-							<p class="para-style">Enter your email address below and we'll send you an email with instructions.</p>
-							<p class="para-style-2"><strong>Need Help?</strong> Learn more about how to <a href="#">retrieve an existing
-									account.</a></p>
-							<div class="input">
-								<span class="fa fa-envelope-o" aria-hidden="true"></span>
-								<input type="email" placeholder="Email" name="email" required />
-							</div>
-							<button type="submit" class="btn submit last-btn">Reset</button>
-						</form>
-					</article>
-				</div>
-			</div>
-			<!-- //vertical tabs -->
-			<div class="clear"></div>
+<body class="login-body">
+	<div class="container">
+		<h4 class="deep-purple-text text-darken-4">Login As School Admin</h4>
+		<h6 class="white-text">Login As Student</h6>
+		<div class="row form z-depth-3">
+				<form>
+						<div class="input-field">
+							<input type="text" name="username" id="username">
+							<label for="username">Username</label>
+						</div>
+						<div class="input-field">
+							<input type="email" name="email" id="email">
+							<label for="email">Email Address</label>
+						</div>
+						<div class="input-field right">
+							<button name="submit" class="btn white deep-purple-text text-darken-4" id="submit">Submit</button>
+						</div>
+				</form>
 		</div>
-		<!-- copyright -->
-		<div class="copyright">
-			<h2>&copy; 2019 TechScholar</h2>
-		</div>
-		<!-- //copyright -->
+		<p class="deep-purple-text text-darken-4">Not Registered? <a class="white-text" href="registration.html">Create an Account</a></p>
+		<a class="white-text password" href="password.html">Forgot password?</a>
 	</div>
+	
 
 	<script src="https://kit.fontawesome.com/527448dea9.js" crossorigin="anonymous"></script>
-	<script>
-		addEventListener("load", function () {
-			setTimeout(hideURLbar, 0);
-		}, false);
-
-		function hideURLbar() {
-			window.scrollTo(0, 1);
-		}
-	</script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/materialize.min.js"></script>
+    <script src="./js/ui.js"></script>
 </body>
-
 </html>
