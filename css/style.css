@@ -61,6 +61,10 @@ header {
     font-weight: bold;
 }
 
+.work {
+    margin-left: -0.8em;
+}
+
 .team {
     background: url(../images/TECHSCHOLAR\ landing\ page.png);
     background-size: cover;
